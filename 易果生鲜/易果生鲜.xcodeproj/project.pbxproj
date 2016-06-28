@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C09D0CC1D017B150030CE7F /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C09D0CB1D017B150030CE7F /* ____Tests.m */; };
+		0C09D0D71D017B150030CE7F /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C09D0D61D017B150030CE7F /* ____UITests.m */; };
+		0C7386891D03AD2E00E19F4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386501D03AD2D00E19F4D /* AppDelegate.m */; };
+		0C73868A1D03AD2E00E19F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7386511D03AD2D00E19F4D /* Assets.xcassets */; };
+		0C73868B1D03AD2E00E19F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7386531D03AD2D00E19F4D /* LaunchScreen.storyboard */; };
+		0C73868C1D03AD2E00E19F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C7386551D03AD2D00E19F4D /* Main.storyboard */; };
+		0C73868D1D03AD2E00E19F4D /* UIBarButtonItem+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73865A1D03AD2D00E19F4D /* UIBarButtonItem+JSExtension.m */; };
+		0C73868E1D03AD2E00E19F4D /* UIView+JSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73865C1D03AD2D00E19F4D /* UIView+JSExtension.m */; };
+		0C73868F1D03AD2E00E19F4D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C73865D1D03AD2D00E19F4D /* Info.plist */; };
+		0C7386901D03AD2E00E19F4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73865E1D03AD2D00E19F4D /* main.m */; };
+		0C7386911D03AD2E00E19F4D /* YGCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386651D03AD2D00E19F4D /* YGCartViewController.m */; };
+		0C7386921D03AD2E00E19F4D /* YGCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73866B1D03AD2D00E19F4D /* YGCategoryViewController.m */; };
+		0C7386931D03AD2E00E19F4D /* YGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386711D03AD2D00E19F4D /* YGHomeViewController.m */; };
+		0C7386941D03AD2E00E19F4D /* YGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386771D03AD2D00E19F4D /* YGNavigationController.m */; };
+		0C7386951D03AD2E00E19F4D /* YGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386791D03AD2D00E19F4D /* YGTabBarController.m */; };
+		0C7386961D03AD2E00E19F4D /* YGMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C73867F1D03AD2D00E19F4D /* YGMeViewController.m */; };
+		0C7386971D03AD2E00E19F4D /* YGSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7386851D03AD2E00E19F4D /* YGSearchViewController.m */; };
+		6E26096E2B05E6BD43021157 /* libPods-易果生鲜.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16578144F2D5B3C8E2006333 /* libPods-易果生鲜.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C09D0C81D017B150030CE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C09D0A61D017B140030CE7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C09D0AD1D017B140030CE7F;
+			remoteInfo = "易果生鲜";
+		};
+		0C09D0D31D017B150030CE7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C09D0A61D017B140030CE7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C09D0AD1D017B140030CE7F;
+			remoteInfo = "易果生鲜";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C09D0AE1D017B150030CE7F /* YGSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C09D0C71D017B150030CE7F /* 易果生鲜Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "易果生鲜Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C09D0CB1D017B150030CE7F /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		0C09D0CD1D017B150030CE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C09D0D21D017B150030CE7F /* 易果生鲜UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "易果生鲜UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C09D0D61D017B150030CE7F /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		0C09D0D81D017B150030CE7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C73864F1D03AD2D00E19F4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C7386501D03AD2D00E19F4D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C7386511D03AD2D00E19F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C7386541D03AD2D00E19F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C7386561D03AD2D00E19F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		0C7386591D03AD2D00E19F4D /* UIBarButtonItem+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+JSExtension.h"; sourceTree = "<group>"; };
+		0C73865A1D03AD2D00E19F4D /* UIBarButtonItem+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+JSExtension.m"; sourceTree = "<group>"; };
+		0C73865B1D03AD2D00E19F4D /* UIView+JSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JSExtension.h"; sourceTree = "<group>"; };
+		0C73865C1D03AD2D00E19F4D /* UIView+JSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSExtension.m"; sourceTree = "<group>"; };
+		0C73865D1D03AD2D00E19F4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C73865E1D03AD2D00E19F4D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C7386601D03AD2D00E19F4D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0C7386641D03AD2D00E19F4D /* YGCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGCartViewController.h; sourceTree = "<group>"; };
+		0C7386651D03AD2D00E19F4D /* YGCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGCartViewController.m; sourceTree = "<group>"; };
+		0C73866A1D03AD2D00E19F4D /* YGCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGCategoryViewController.h; sourceTree = "<group>"; };
+		0C73866B1D03AD2D00E19F4D /* YGCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGCategoryViewController.m; sourceTree = "<group>"; };
+		0C7386701D03AD2D00E19F4D /* YGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGHomeViewController.h; sourceTree = "<group>"; };
+		0C7386711D03AD2D00E19F4D /* YGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGHomeViewController.m; sourceTree = "<group>"; };
+		0C7386761D03AD2D00E19F4D /* YGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGNavigationController.h; sourceTree = "<group>"; };
+		0C7386771D03AD2D00E19F4D /* YGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGNavigationController.m; sourceTree = "<group>"; };
+		0C7386781D03AD2D00E19F4D /* YGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGTabBarController.h; sourceTree = "<group>"; };
+		0C7386791D03AD2D00E19F4D /* YGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGTabBarController.m; sourceTree = "<group>"; };
+		0C73867E1D03AD2D00E19F4D /* YGMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGMeViewController.h; sourceTree = "<group>"; };
+		0C73867F1D03AD2D00E19F4D /* YGMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGMeViewController.m; sourceTree = "<group>"; };
+		0C7386841D03AD2E00E19F4D /* YGSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGSearchViewController.h; sourceTree = "<group>"; };
+		0C7386851D03AD2E00E19F4D /* YGSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGSearchViewController.m; sourceTree = "<group>"; };
+		16578144F2D5B3C8E2006333 /* libPods-易果生鲜.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-易果生鲜.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18DFFB1E0D519DC5856E3B18 /* Pods-易果生鲜.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-易果生鲜.release.xcconfig"; path = "Pods/Target Support Files/Pods-易果生鲜/Pods-易果生鲜.release.xcconfig"; sourceTree = "<group>"; };
+		D052281826437A4FFF861748 /* Pods-易果生鲜.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-易果生鲜.debug.xcconfig"; path = "Pods/Target Support Files/Pods-易果生鲜/Pods-易果生鲜.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C09D0AB1D017B140030CE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E26096E2B05E6BD43021157 /* libPods-易果生鲜.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0C41D017B150030CE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0CF1D017B150030CE7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C09D0A51D017B140030CE7F = {
+			isa = PBXGroup;
+			children = (
+				0C09D0B01D017B150030CE7F /* 易果生鲜 */,
+				0C09D0CA1D017B150030CE7F /* 易果生鲜Tests */,
+				0C09D0D51D017B150030CE7F /* 易果生鲜UITests */,
+				0C09D0AF1D017B150030CE7F /* Products */,
+				D75FB5D34769F1865379905C /* Pods */,
+				60C42FDB46C5B344F4183494 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0C09D0AF1D017B150030CE7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C09D0AE1D017B150030CE7F /* YGSX.app */,
+				0C09D0C71D017B150030CE7F /* 易果生鲜Tests.xctest */,
+				0C09D0D21D017B150030CE7F /* 易果生鲜UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C09D0B01D017B150030CE7F /* 易果生鲜 */ = {
+			isa = PBXGroup;
+			children = (
+				0C73864E1D03AD2D00E19F4D /* AppDelegate */,
+				0C7386521D03AD2D00E19F4D /* Base.lproj */,
+				0C7386571D03AD2D00E19F4D /* Common */,
+				0C73865F1D03AD2D00E19F4D /* Others */,
+				0C7386611D03AD2D00E19F4D /* Project */,
+				0C7386881D03AD2E00E19F4D /* Utils */,
+				0C09D0B11D017B150030CE7F /* Supporting Files */,
+			);
+			path = "易果生鲜";
+			sourceTree = "<group>";
+		};
+		0C09D0B11D017B150030CE7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386511D03AD2D00E19F4D /* Assets.xcassets */,
+				0C73865D1D03AD2D00E19F4D /* Info.plist */,
+				0C73865E1D03AD2D00E19F4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C09D0CA1D017B150030CE7F /* 易果生鲜Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0C09D0CB1D017B150030CE7F /* ____Tests.m */,
+				0C09D0CD1D017B150030CE7F /* Info.plist */,
+			);
+			path = "易果生鲜Tests";
+			sourceTree = "<group>";
+		};
+		0C09D0D51D017B150030CE7F /* 易果生鲜UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C09D0D61D017B150030CE7F /* ____UITests.m */,
+				0C09D0D81D017B150030CE7F /* Info.plist */,
+			);
+			path = "易果生鲜UITests";
+			sourceTree = "<group>";
+		};
+		0C73864E1D03AD2D00E19F4D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0C73864F1D03AD2D00E19F4D /* AppDelegate.h */,
+				0C7386501D03AD2D00E19F4D /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		0C7386521D03AD2D00E19F4D /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386531D03AD2D00E19F4D /* LaunchScreen.storyboard */,
+				0C7386551D03AD2D00E19F4D /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		0C7386571D03AD2D00E19F4D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386581D03AD2D00E19F4D /* Extension */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0C7386581D03AD2D00E19F4D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386591D03AD2D00E19F4D /* UIBarButtonItem+JSExtension.h */,
+				0C73865A1D03AD2D00E19F4D /* UIBarButtonItem+JSExtension.m */,
+				0C73865B1D03AD2D00E19F4D /* UIView+JSExtension.h */,
+				0C73865C1D03AD2D00E19F4D /* UIView+JSExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0C73865F1D03AD2D00E19F4D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386601D03AD2D00E19F4D /* PrefixHeader.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		0C7386611D03AD2D00E19F4D /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386621D03AD2D00E19F4D /* Cart */,
+				0C7386681D03AD2D00E19F4D /* Category */,
+				0C73866E1D03AD2D00E19F4D /* Home */,
+				0C7386741D03AD2D00E19F4D /* Main */,
+				0C73867C1D03AD2D00E19F4D /* Me */,
+				0C7386821D03AD2E00E19F4D /* Search */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		0C7386621D03AD2D00E19F4D /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386631D03AD2D00E19F4D /* Controller */,
+				0C7386661D03AD2D00E19F4D /* Model */,
+				0C7386671D03AD2D00E19F4D /* View */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		0C7386631D03AD2D00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386641D03AD2D00E19F4D /* YGCartViewController.h */,
+				0C7386651D03AD2D00E19F4D /* YGCartViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C7386661D03AD2D00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C7386671D03AD2D00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C7386681D03AD2D00E19F4D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386691D03AD2D00E19F4D /* Controller */,
+				0C73866C1D03AD2D00E19F4D /* Model */,
+				0C73866D1D03AD2D00E19F4D /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0C7386691D03AD2D00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C73866A1D03AD2D00E19F4D /* YGCategoryViewController.h */,
+				0C73866B1D03AD2D00E19F4D /* YGCategoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C73866C1D03AD2D00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C73866D1D03AD2D00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C73866E1D03AD2D00E19F4D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0C73866F1D03AD2D00E19F4D /* Controller */,
+				0C7386721D03AD2D00E19F4D /* Model */,
+				0C7386731D03AD2D00E19F4D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0C73866F1D03AD2D00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386701D03AD2D00E19F4D /* YGHomeViewController.h */,
+				0C7386711D03AD2D00E19F4D /* YGHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C7386721D03AD2D00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C7386731D03AD2D00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C7386741D03AD2D00E19F4D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386751D03AD2D00E19F4D /* Controller */,
+				0C73867A1D03AD2D00E19F4D /* Model */,
+				0C73867B1D03AD2D00E19F4D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0C7386751D03AD2D00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386761D03AD2D00E19F4D /* YGNavigationController.h */,
+				0C7386771D03AD2D00E19F4D /* YGNavigationController.m */,
+				0C7386781D03AD2D00E19F4D /* YGTabBarController.h */,
+				0C7386791D03AD2D00E19F4D /* YGTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C73867A1D03AD2D00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C73867B1D03AD2D00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C73867C1D03AD2D00E19F4D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				0C73867D1D03AD2D00E19F4D /* Controller */,
+				0C7386801D03AD2D00E19F4D /* Model */,
+				0C7386811D03AD2D00E19F4D /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		0C73867D1D03AD2D00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C73867E1D03AD2D00E19F4D /* YGMeViewController.h */,
+				0C73867F1D03AD2D00E19F4D /* YGMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C7386801D03AD2D00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C7386811D03AD2D00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C7386821D03AD2E00E19F4D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386831D03AD2E00E19F4D /* Controller */,
+				0C7386861D03AD2E00E19F4D /* Model */,
+				0C7386871D03AD2E00E19F4D /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		0C7386831D03AD2E00E19F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C7386841D03AD2E00E19F4D /* YGSearchViewController.h */,
+				0C7386851D03AD2E00E19F4D /* YGSearchViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C7386861D03AD2E00E19F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C7386871D03AD2E00E19F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C7386881D03AD2E00E19F4D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		60C42FDB46C5B344F4183494 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16578144F2D5B3C8E2006333 /* libPods-易果生鲜.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D75FB5D34769F1865379905C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D052281826437A4FFF861748 /* Pods-易果生鲜.debug.xcconfig */,
+				18DFFB1E0D519DC5856E3B18 /* Pods-易果生鲜.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C09D0AD1D017B140030CE7F /* 易果生鲜 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C09D0DB1D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜" */;
+			buildPhases = (
+				F0B88F19E4763F37C58632B3 /* 📦 Check Pods Manifest.lock */,
+				0C09D0AA1D017B140030CE7F /* Sources */,
+				0C09D0AB1D017B140030CE7F /* Frameworks */,
+				0C09D0AC1D017B140030CE7F /* Resources */,
+				885A0789BCD326EEF196EDC5 /* 📦 Embed Pods Frameworks */,
+				549113A5C9ABB2164A9A82DD /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "易果生鲜";
+			productName = "易果生鲜";
+			productReference = 0C09D0AE1D017B150030CE7F /* YGSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C09D0C61D017B150030CE7F /* 易果生鲜Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C09D0DE1D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜Tests" */;
+			buildPhases = (
+				0C09D0C31D017B150030CE7F /* Sources */,
+				0C09D0C41D017B150030CE7F /* Frameworks */,
+				0C09D0C51D017B150030CE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C09D0C91D017B150030CE7F /* PBXTargetDependency */,
+			);
+			name = "易果生鲜Tests";
+			productName = "易果生鲜Tests";
+			productReference = 0C09D0C71D017B150030CE7F /* 易果生鲜Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0C09D0D11D017B150030CE7F /* 易果生鲜UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C09D0E11D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜UITests" */;
+			buildPhases = (
+				0C09D0CE1D017B150030CE7F /* Sources */,
+				0C09D0CF1D017B150030CE7F /* Frameworks */,
+				0C09D0D01D017B150030CE7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C09D0D41D017B150030CE7F /* PBXTargetDependency */,
+			);
+			name = "易果生鲜UITests";
+			productName = "易果生鲜UITests";
+			productReference = 0C09D0D21D017B150030CE7F /* 易果生鲜UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C09D0A61D017B140030CE7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YG;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aesthetic92;
+				TargetAttributes = {
+					0C09D0AD1D017B140030CE7F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = VT8GB485LH;
+					};
+					0C09D0C61D017B150030CE7F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C09D0AD1D017B140030CE7F;
+					};
+					0C09D0D11D017B150030CE7F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0C09D0AD1D017B140030CE7F;
+					};
+				};
+			};
+			buildConfigurationList = 0C09D0A91D017B140030CE7F /* Build configuration list for PBXProject "易果生鲜" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C09D0A51D017B140030CE7F;
+			productRefGroup = 0C09D0AF1D017B150030CE7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C09D0AD1D017B140030CE7F /* 易果生鲜 */,
+				0C09D0C61D017B150030CE7F /* 易果生鲜Tests */,
+				0C09D0D11D017B150030CE7F /* 易果生鲜UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C09D0AC1D017B140030CE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C73868F1D03AD2E00E19F4D /* Info.plist in Resources */,
+				0C73868C1D03AD2E00E19F4D /* Main.storyboard in Resources */,
+				0C73868A1D03AD2E00E19F4D /* Assets.xcassets in Resources */,
+				0C73868B1D03AD2E00E19F4D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0C51D017B150030CE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0D01D017B150030CE7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		549113A5C9ABB2164A9A82DD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-易果生鲜/Pods-易果生鲜-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		885A0789BCD326EEF196EDC5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-易果生鲜/Pods-易果生鲜-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0B88F19E4763F37C58632B3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C09D0AA1D017B140030CE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7386891D03AD2E00E19F4D /* AppDelegate.m in Sources */,
+				0C7386961D03AD2E00E19F4D /* YGMeViewController.m in Sources */,
+				0C7386921D03AD2E00E19F4D /* YGCategoryViewController.m in Sources */,
+				0C7386931D03AD2E00E19F4D /* YGHomeViewController.m in Sources */,
+				0C7386951D03AD2E00E19F4D /* YGTabBarController.m in Sources */,
+				0C7386911D03AD2E00E19F4D /* YGCartViewController.m in Sources */,
+				0C7386941D03AD2E00E19F4D /* YGNavigationController.m in Sources */,
+				0C73868D1D03AD2E00E19F4D /* UIBarButtonItem+JSExtension.m in Sources */,
+				0C7386971D03AD2E00E19F4D /* YGSearchViewController.m in Sources */,
+				0C7386901D03AD2E00E19F4D /* main.m in Sources */,
+				0C73868E1D03AD2E00E19F4D /* UIView+JSExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0C31D017B150030CE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C09D0CC1D017B150030CE7F /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C09D0CE1D017B150030CE7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C09D0D71D017B150030CE7F /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C09D0C91D017B150030CE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C09D0AD1D017B140030CE7F /* 易果生鲜 */;
+			targetProxy = 0C09D0C81D017B150030CE7F /* PBXContainerItemProxy */;
+		};
+		0C09D0D41D017B150030CE7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C09D0AD1D017B140030CE7F /* 易果生鲜 */;
+			targetProxy = 0C09D0D31D017B150030CE7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C7386531D03AD2D00E19F4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7386541D03AD2D00E19F4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C7386551D03AD2D00E19F4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C7386561D03AD2D00E19F4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C09D0D91D017B150030CE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C09D0DA1D017B150030CE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C09D0DC1D017B150030CE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D052281826437A4FFF861748 /* Pods-易果生鲜.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "/Users/aesthetic92/Desktop/practice/易果生鲜/易果生鲜/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/易果生鲜/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----";
+				PRODUCT_NAME = YGSX;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0C09D0DD1D017B150030CE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18DFFB1E0D519DC5856E3B18 /* Pods-易果生鲜.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "/Users/aesthetic92/Desktop/practice/易果生鲜/易果生鲜/Others/PrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/易果生鲜/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----";
+				PRODUCT_NAME = YGSX;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0C09D0DF1D017B150030CE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "易果生鲜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/易果生鲜.app/易果生鲜";
+			};
+			name = Debug;
+		};
+		0C09D0E01D017B150030CE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "易果生鲜Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/易果生鲜.app/易果生鲜";
+			};
+			name = Release;
+		};
+		0C09D0E21D017B150030CE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "易果生鲜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "易果生鲜";
+			};
+			name = Debug;
+		};
+		0C09D0E31D017B150030CE7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "易果生鲜UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HIT.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "易果生鲜";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C09D0A91D017B140030CE7F /* Build configuration list for PBXProject "易果生鲜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C09D0D91D017B150030CE7F /* Debug */,
+				0C09D0DA1D017B150030CE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C09D0DB1D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C09D0DC1D017B150030CE7F /* Debug */,
+				0C09D0DD1D017B150030CE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C09D0DE1D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C09D0DF1D017B150030CE7F /* Debug */,
+				0C09D0E01D017B150030CE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C09D0E11D017B150030CE7F /* Build configuration list for PBXNativeTarget "易果生鲜UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C09D0E21D017B150030CE7F /* Debug */,
+				0C09D0E31D017B150030CE7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C09D0A61D017B140030CE7F /* Project object */;
+}

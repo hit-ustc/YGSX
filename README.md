@@ -1,6 +1,6 @@
-#About Project
+#About Repo
 
-This project is mainly used to learn iOS development. We imitate [yiguoshengxian](http://www.yiguo.com/) app, this project is only for learn to study, without any commercial use. 
+This repository is mainly used to learn iOS development. We imitate [yiguoshengxian](http://www.yiguo.com/) app, the repository is only for learn to study, without any commercial use. 
 
 At present, we have completed a part of functions of the project. Later, we will gradually improve it.
 

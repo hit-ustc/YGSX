@@ -17,10 +17,10 @@
 #define JSTabBarItemTitleColor JSRGBColor(18, 128, 60)
 
 
-#define JSTagBg XMGRGBColor(74, 139, 209)
+#define JSTagBg JSRGBColor(74, 139, 209)
 #define JSTagFont [UIFont systemFontOfSize:14]
 
-#define XMGScreenW [UIScreen mainScreen].bounds.size.width
-#define XMGScreenH [UIScreen mainScreen].bounds.size.height
+#define ScreenW [UIScreen mainScreen].bounds.size.width
+#define ScreenH [UIScreen mainScreen].bounds.size.height
 
 #endif /* PrefixHeader_pch */
